@@ -15,7 +15,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "dev" {
   name     = "PULTerraform"
-  location = "West Europe"
+  location = "Central US"
 }
 
 resource "azurerm_app_service_plan" "dev" {
