@@ -16,6 +16,10 @@ terraform {
   }
 }
 
+provider "azurerm" {
+  features {}
+}
+
 resource "azurerm_resource_group" "dev" {
   name     = "PULTerraform"
   location = "Central US"
